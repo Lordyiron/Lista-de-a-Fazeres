@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(135deg, #000000, #00FF00); 
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove a margem padrão */
+    padding: 20px; /* Adiciona um pouco de padding ao redor do corpo */
+    display: flex; /* Alinha o conteúdo com flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Usa 100% da altura da viewport */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    width: 300px; /* Define uma largura fixa para a lista */
+  }
+  
+  li {
+    background-color: #f4f4f4; /* Cor de fundo dos itens */
+    border: 1px solid #ddd; /* Borda leve ao redor dos itens */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 6px; /* Espaçamento interno reduzido */
+    margin-bottom: 6px; /* Espaçamento entre os itens reduzido */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+    font-size: 13px; /* Tamanho da fonte reduzido */
+    text-align: center; /* Centraliza o texto dentro dos itens */
+  }
+  
+  li:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+  }
+  
+  /* Adicionando um estilo para a lista ordenada, se necessário */
+  ol {
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    width: 300px; /* Define uma largura fixa para a lista */
+  }
+  
+  ol li {
+    background-color: #f4f4f4; /* Cor de fundo dos itens */
+    border: 1px solid #ddd; /* Borda leve ao redor dos itens */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 6px; /* Espaçamento interno reduzido */
+    margin-bottom: 6px; /* Espaçamento entre os itens reduzido */
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+    font-size: 13px; /* Tamanho da fonte reduzido */
+    text-align: center; /* Centraliza o texto dentro dos itens */
+  }
+  
+  ol li:hover {
+    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse */
+  }
